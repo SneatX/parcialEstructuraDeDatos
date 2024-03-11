@@ -3,9 +3,42 @@ const detailsVacio = [
 ]
 // CORTE 1
 const enunciadosP1 = [
-  "Ejercicio 1 del parcial con el metodo BubbleShort <br>Tiempo de ejecucion: 3 milisegundos <br> Memoria consumida: 882800 bytes <br> Cantidad de iteraciones: 12468",
+  "Ejercicio 1 del parcial con el metodo Burbuja <br>Tiempo de ejecucion: 3 milisegundos <br> Memoria consumida: 882800 bytes <br> Cantidad de iteraciones: 12468",
   "Ejercicio 1 del parcial con el metodo Burbuja mejorado <br>Tiempo de ejecucion: 15 milisegundos <br> Memoria consumida: 986232 bytes <br> Cantidad de iteraciones: 12468",
-  "Ejercicio 1 del parcial con el metodo quick sort <br>Tiempo de ejecucion: 496613 nanosegundos <br> Memoria consumida: 678016 bytes <br> Cantidad de iteraciones: 6144<br><br>Como podemos observar al comparar los resultados del quicksort despues de su ejecucion con los metodos burbuja, a este metodo no le toma ni un segundo realizar la misma tarea, le toma menos de la mitad de las iteraciones y cosume alrededor de un 30% menos de memoria en su ejecucion, por lo que en este caso, quicksort es la mejor opcion para organizar los datos"
+  "Ejercicio 1 del parcial con el metodo quick sort <br>Tiempo de ejecucion: 496613 nanosegundos <br> Memoria consumida: 678016 bytes <br> Cantidad de iteraciones: 6144<br><br>Como podemos observar al comparar los resultados del quicksort despues de su ejecucion con los metodos burbuja, a este metodo no le toma ni un segundo realizar la misma tarea, le toma menos de la mitad de las iteraciones y cosume alrededor de un 30% menos de memoria en su ejecucion, por lo que en este caso, quicksort es la mejor opcion para organizar los datos",
+  
+  "Ejercicio 2 del parcial con el metodo Burbuja <br>Tiempo de ejecucion: 1462624 nanosegundos  <br> Memoria consumida: 837736 bytes <br> Cantidad de iteraciones: 4950",
+  "Ejercicio 2 del parcial con el metodo Burbuja mejorado <br>Tiempo de ejecucion: 1628513 nanosegundos <br> Memoria consumida: 859048 bytes <br> Cantidad de iteraciones: 4940",
+  "Ejercicio 2 del parcial con el metodo quick sort <br>Tiempo de ejecucion: 407472  nanosegundos <br> Memoria consumida: 862048 bytes <br> Cantidad de iteraciones: 645 <br>Como se puede observar al correr tres metodos y comparar sus resultados, quick sort demuestra ser mas rapido utilizando menos iteraciones pero con un gasto de recursos aunque casi imperceptible, mayor",
+  
+  "Ejercicio 3 del parcial con el metodo burbuja <br>Tiempo de ejecucion: 1272393 nanosegundos  <br> Memoria consumida: 837336 bytes <br> Cantidad de iteraciones: 4371",
+  "Ejercicio 3 del parcial con el metodo burbuja mejorado<br>Tiempo de ejecucion: 1251293 nanosegundos  <br> Memoria consumida: 860160 bytes <br> Cantidad de iteraciones: 4361",
+  "Ejercicio 3 del parcial con el quickSort <br>Tiempo de ejecucion: 489542 nanosegundos  <br> Memoria consumida: 860536 bytes <br> Cantidad de iteraciones: 533",
+  
+  "Ejercicio 3 del parcial con el metodo burbuja en numeros<br>Tiempo de ejecucion: 175230 nanosegundos  <br> Memoria consumida: 843592 bytes <br> Cantidad de iteraciones: 5151",
+  "Ejercicio 3 del parcial con el metodo burbuja mejorado en numeros<br>Tiempo de ejecucion: 178334 nanosegundos  <br> Memoria consumida: 843632 bytes <br> Cantidad de iteraciones: 5060",
+  "Ejercicio 3 del parcial con el quickSort en numeros<br>Tiempo de ejecucion: 63179 nanosegundos  <br> Memoria consumida: 838008 bytes <br> Cantidad de iteraciones: 871<br> Como podemos observar, tanto en el caso de los numeros, como el caso de las letras, el metodo mas optimo a utilizar es quick sort",
+
+  "Ejercicio 4 del parcial con el metodo burbuja <br>Tiempo de ejecucion: 1282151 nanosegundos  <br> Memoria consumida: 837136 bytes <br> Cantidad de iteraciones: 3403",
+  "Ejercicio 4 del parcial con el metodo burbuja mejorado<br>Tiempo de ejecucion: 1183729 nanosegundos  <br> Memoria consumida: 859520 bytes <br> Cantidad de iteraciones: 3403",
+  "Ejercicio 4 del parcial con el quickSort <br>Tiempo de ejecucion: 1105509 nanosegundos  <br> Memoria consumida: 859576 bytes <br> Cantidad de iteraciones: 2155",
+  
+  "Ejercicio 4 del parcial con el metodo burbuja en numeros<br>Tiempo de ejecucion: 215682 nanosegundos  <br> Memoria consumida: 841864 bytes <br> Cantidad de iteraciones: 5151",
+  "Ejercicio 4 del parcial con el metodo burbuja mejorado en numeros<br>Tiempo de ejecucion: 258404 nanosegundos  <br> Memoria consumida: 843392 bytes <br> Cantidad de iteraciones: 5151",
+  "Ejercicio 4 del parcial con el quickSort en numeros<br>Tiempo de ejecucion: 170232 nanosegundos  <br> Memoria consumida: 837776 bytes <br> Cantidad de iteraciones: 5151<br> Como podemos observar, tanto en el caso de los numeros, como el caso de las letras, ambas ordenadas al revez, los 3 metodos consumen lo casi lo mismo en todo, iteraciones, tiempo y memoria, por lo que se tendria que buscar otro metodo optimo para este tipo de casos",
+
+  "Ejercicio 5 del parcial con el metodo burbuja <br>Tiempo de ejecucion: 3597906 nanosegundos  <br> Memoria consumida: 857848 bytes <br> Cantidad de iteraciones: 18336",
+  "Ejercicio 5 del parcial con el metodo burbuja mejorado<br>Tiempo de ejecucion: 3540006 nanosegundos  <br> Memoria consumida: 837424 bytes <br> Cantidad de iteraciones: 18258",
+  "Ejercicio 5 del parcial con el quickSort <br>Tiempo de ejecucion: 855553 nanosegundos  <br> Memoria consumida: 861672 bytes <br> Cantidad de iteraciones: 1768",
+  
+  "Ejercicio 5 del parcial con el metodo burbuja en numeros<br>Tiempo de ejecucion: 717605 nanosegundos  <br> Memoria consumida: 839320 bytes <br> Cantidad de iteraciones: 20706",
+  "Ejercicio 5 del parcial con el metodo burbuja mejorado en numeros<br>Tiempo de ejecucion: 854943 nanosegundos  <br> Memoria consumida: 839280 bytes <br> Cantidad de iteraciones: 20553",
+  "Ejercicio 5 del parcial con el quickSort en numeros<br>Tiempo de ejecucion: 114604 nanosegundos  <br> Memoria consumida: 857584 bytes <br> Cantidad de iteraciones: 1984<br> Como podemos observar, tanto en el caso de los numeros, como el caso de las letras, con valores repetidos, quick sort nuevamente se establece como la mejor opcion para este ejercicio de ordenamiento",
+
+  "Ejercicio 6 del parcial con el metodo burbuja<br>Tiempo de ejecucion: 5 milisegundos  <br> Memoria consumida: 820232 bytes <br> Cantidad de comparaciones: 499500",
+  "Ejercicio 6 del parcial con el metodo burbuja mejorado<br>Tiempo de ejecucion: 6 milisegundos  <br> Memoria consumida: 841184 bytes <br> Cantidad de comparaciones: 497670",
+  "Ejercicio 6 del parcial con el metodo quick sort<br>Tiempo de ejecucion: 1 milisegundos  <br> Memoria consumida: 882304 bytes <br> Cantidad de comparaciones: 14292 <br>En cuanto a cuál es la mejor opción, depende de varios factores, incluida la cantidad de elementos en el arreglo, la distribución de los datos y la implementación específica de los algoritmos. Sin embargo, en general, Quick Sort tiende a ser más eficiente en términos de tiempo de ejecución, especialmente para conjuntos de datos más grandes, debido a su complejidad de tiempo, Sin embargo, para conjuntos de datos más pequeños o específicos, los algoritmos de Burbuja (especialmente el mejorado) pueden ser competitivos.",
+  "Este programa genera un arreglo de nombres aleatorios y luego cuenta las repeticiones de cada nombre en el arreglo. Luego, ordena el arreglo alfabéticamente y por la cantidad de repeticiones, presentando dos listas ordenadas: una lista muestra los nombres ordenados alfabéticamente junto con su frecuencia de aparición, y la otra lista muestra los nombres ordenados por la cantidad de repeticiones, mostrando los nombres más comunes primero."
 ]
 const codigoP1 = [
 `public class Main {
@@ -164,7 +197,6 @@ class BubbleSort {
   }
 }
 `,
-
 `public class Main {
   public static void main(String[] args) {
       // Arrays de fechas y precios
@@ -335,7 +367,6 @@ class BubbleSortImproved {
 }
 
 `,
-
 `import java.util.Arrays;
 
 public class Main {
@@ -524,7 +555,1043 @@ public class Main {
 }
 
 `,
-`
+`import java.util.Arrays; 
+
+public class Main {
+    private static int iterations = 0;
+
+    public static void main(String[] args) {
+        String[] arr = {"Juan", "María", "Carlos", "Ana", "Pedro", "Sofía", "Luis", "Laura", "Diego", "Marta", "Miguel", "Elena", "Javier", "Lucía", "Pablo", "Valentina", "Andrés", "Camila", "José", "Andrea", "David", "Paula", "Fernando", "Martina", "Antonio", "Claudia", "Daniel", "Beatriz", "Alejandro", "Sara", "Manuel", "Isabel", "Sergio", "Julia", "Jorge", "Victoria", "Raúl", "Natalia", "Iván", "Carmen", "Francisco", "Alba", "Rubén", "Elena", "Alberto", "Sara", "Adrián", "María", "Sergio", "Andrea", "Pablo", "Lucía", "Luis", "Paula", "Guillermo", "Marta", "Javier", "Laura", "Raúl", "Clara", "Ángel", "Noelia", "Gabriel", "Cristina", "Jesús", "Martina", "Fernando", "Carmen", "Víctor", "Patricia", "Ricardo", "Andrea", "Gonzalo", "María", "Óscar", "Sara", "Rubén", "Julia", "Samuel", "Sofía", "Francisco", "Marta", "Diego", "Andrea", "Juan", "Laura", "Javier", "Clara", "José", "Elena", "Mario", "Natalia", "Marcos", "Paula", "Adrián", "Marina", "Carlos", "Cristina", "Alberto", "Isabel"};
+        long startTime = System.nanoTime();
+        bubbleSort(arr);
+        long endTime = System.nanoTime();
+        long duration = (endTime - startTime);
+
+        System.out.println("Tiempo de ejecucion: " + duration + " nanosegundos");
+        System.out.println("Memoria consumida: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) + " bytes");
+        System.out.println("Cantidad de iteraciones: " + iterations);
+    }
+
+    public static void bubbleSort(String[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j].compareTo(arr[j + 1]) > 0) {
+                    String temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+                iterations++;
+            }
+        }
+    }
+}
+
+`,
+`import java.util.Arrays;
+
+public class Main {
+    private static int iterations = 0;
+
+    public static void main(String[] args) {
+        String[] arr = {"Juan", "María", "Carlos", "Ana", "Pedro", "Sofía", "Luis", "Laura", "Diego", "Marta", "Miguel", "Elena", "Javier", "Lucía", "Pablo", "Valentina", "Andrés", "Camila", "José", "Andrea", "David", "Paula", "Fernando", "Martina", "Antonio", "Claudia", "Daniel", "Beatriz", "Alejandro", "Sara", "Manuel", "Isabel", "Sergio", "Julia", "Jorge", "Victoria", "Raúl", "Natalia", "Iván", "Carmen", "Francisco", "Alba", "Rubén", "Elena", "Alberto", "Sara", "Adrián", "María", "Sergio", "Andrea", "Pablo", "Lucía", "Luis", "Paula", "Guillermo", "Marta", "Javier", "Laura", "Raúl", "Clara", "Ángel", "Noelia", "Gabriel", "Cristina", "Jesús", "Martina", "Fernando", "Carmen", "Víctor", "Patricia", "Ricardo", "Andrea", "Gonzalo", "María", "Óscar", "Sara", "Rubén", "Julia", "Samuel", "Sofía", "Francisco", "Marta", "Diego", "Andrea", "Juan", "Laura", "Javier", "Clara", "José", "Elena", "Mario", "Natalia", "Marcos", "Paula", "Adrián", "Marina", "Carlos", "Cristina", "Alberto", "Isabel"};
+        long startTime = System.nanoTime();
+        improvedBubbleSort(arr);
+        long endTime = System.nanoTime();
+        long duration = (endTime - startTime); // Tiempo en milisegundos
+
+        System.out.println("Tiempo de ejecucion: " + duration + " nanosegundos");
+        System.out.println("Memoria consumida: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) + " bytes");
+        System.out.println("Cantidad de iteraciones: " + iterations);
+    }
+
+    public static void improvedBubbleSort(String[] arr) {
+        int n = arr.length;
+        boolean swapped;
+        for (int i = 0; i < n - 1; i++) {
+            swapped = false;
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j].compareTo(arr[j + 1]) > 0) {
+                    String temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                    swapped = true;
+                }
+                iterations++;
+            }
+            // If no two elements were swapped by inner loop, then break
+            if (!swapped) {
+                break;
+            }
+        }
+    }
+}
+
+`,
+`import java.util.Arrays;
+
+public class Main {
+    private static int iterations = 0;
+
+    public static void main(String[] args) {
+        String[] arr = {"Juan", "María", "Carlos", "Ana", "Pedro", "Sofía", "Luis", "Laura", "Diego", "Marta", "Miguel", "Elena", "Javier", "Lucía", "Pablo", "Valentina", "Andrés", "Camila", "José", "Andrea", "David", "Paula", "Fernando", "Martina", "Antonio", "Claudia", "Daniel", "Beatriz", "Alejandro", "Sara", "Manuel", "Isabel", "Sergio", "Julia", "Jorge", "Victoria", "Raúl", "Natalia", "Iván", "Carmen", "Francisco", "Alba", "Rubén", "Elena", "Alberto", "Sara", "Adrián", "María", "Sergio", "Andrea", "Pablo", "Lucía", "Luis", "Paula", "Guillermo", "Marta", "Javier", "Laura", "Raúl", "Clara", "Ángel", "Noelia", "Gabriel", "Cristina", "Jesús", "Martina", "Fernando", "Carmen", "Víctor", "Patricia", "Ricardo", "Andrea", "Gonzalo", "María", "Óscar", "Sara", "Rubén", "Julia", "Samuel", "Sofía", "Francisco", "Marta", "Diego", "Andrea", "Juan", "Laura", "Javier", "Clara", "José", "Elena", "Mario", "Natalia", "Marcos", "Paula", "Adrián", "Marina", "Carlos", "Cristina", "Alberto", "Isabel"};
+        long startTime = System.nanoTime();
+        quickSort(arr, 0, arr.length - 1);
+        long endTime = System.nanoTime();
+        long duration = (endTime - startTime); // Tiempo en milisegundos
+
+        System.out.println("Tiempo de ejecucion: " + duration + " nanosegundos");
+        System.out.println("Memoria consumida: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) + " bytes");
+        System.out.println("Cantidad de iteraciones: " + iterations);
+    }
+
+    public static void quickSort(String[] arr, int low, int high) {
+        if (low < high) {
+            int pi = partition(arr, low, high);
+            quickSort(arr, low, pi - 1);
+            quickSort(arr, pi + 1, high);
+        }
+    }
+
+    private static int partition(String[] arr, int low, int high) {
+        String pivot = arr[high];
+        int i = low - 1;
+        for (int j = low; j < high; j++) {
+            if (arr[j].compareTo(pivot) < 0) {
+                i++;
+                String temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+            iterations++;
+        }
+        String temp = arr[i + 1];
+        arr[i + 1] = arr[high];
+        arr[high] = temp;
+        return i + 1;
+    }
+}
+
+`,
+`import java.util.Arrays;
+
+public class Main {
+    private static int iterations = 0;
+
+    public static void main(String[] args) {
+        String[] arr = {"Juan", "María", "Carlos", "Ana", "Pedro", "Sofía", "Luis", "Laura", "Diego", "Marta", "Miguel", "Elena", "Javier", "Lucía", "Pablo", "Valentina", "Andrés", "Camila", "José", "Andrea", "Daniel", "Beatriz", "Alejandro", "Sara", "Manuel", "Isabel", "Sergio", "Julia", "Jorge", "Victoria", "Raúl", "Natalia", "Iván", "Carmen", "Francisco", "Alba", "Rubén", "Elena", "Alberto", "Sara", "Adrián", "María", "Sergio", "Andrea", "Pablo", "Lucía", "Luis", "Paula", "Guillermo", "Marta", "Javier", "Laura", "Raúl", "Clara", "Ángel", "Noelia", "Gabriel", "Cristina", "Jesús", "Martina", "Fernando", "Carmen", "Víctor", "Patricia",     "Ricardo", "Andrea", "Gonzalo", "María", "Óscar", "Sara", "Rubén", "Julia", "Samuel", "Sofía", "Francisco", "Marta", "Diego", "Andrea", "Juan", "Laura", "Javier", "Clara", "José", "Elena", "Mario", "Natalia", "Marcos", "Paula", "Adrián", "Marina", "Carlos", "Cristina", "Alberto", "Isabel"};
+        long startTime = System.nanoTime();
+        bubbleSort(arr);
+        long endTime = System.nanoTime();
+        long duration = (endTime - startTime);
+
+        System.out.println("Tiempo de ejecucion: " + duration + " nanosegundos");
+        System.out.println("Memoria consumida: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) + " bytes");
+        System.out.println("Cantidad de iteraciones: " + iterations);
+    }
+
+    public static void bubbleSort(String[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j].compareTo(arr[j + 1]) > 0) {
+                    String temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+                iterations++;
+            }
+        }
+    }
+}
+`,
+`import java.util.Arrays;
+
+public class Main {
+    private static int iterations = 0;
+
+    public static void main(String[] args) {
+        String[] arr = {"Juan", "María", "Carlos", "Ana", "Pedro", "Sofía", "Luis", "Laura", "Diego", "Marta", "Miguel", "Elena", "Javier", "Lucía", "Pablo", "Valentina", "Andrés", "Camila", "José", "Andrea", "David", "Paula", "Fernando", "Martina", "Antonio", "Claudia", "Daniel", "Beatriz", "Alejandro", "Sara", "Manuel", "Isabel", "Sergio", "Julia", "Jorge", "Victoria", "Raúl", "Natalia", "Iván", "Carmen", "Francisco", "Alba", "Rubén", "Elena", "Alberto", "Sara", "Adrián", "María", "Sergio", "Andrea", "Pablo", "Lucía", "Luis", "Paula", "Guillermo", "Marta", "Javier", "Laura", "Raúl", "Clara", "Ángel", "Noelia", "Gabriel", "Cristina", "Jesús", "Martina", "Fernando", "Carmen", "Víctor", "Patricia", "Ricardo", "Andrea", "Gonzalo", "María", "Óscar", "Sara", "Rubén", "Julia", "Samuel", "Sofía", "Francisco", "Marta", "Diego", "Andrea", "Juan", "Laura", "Javier", "Clara", "José", "Elena", "Mario", "Natalia", "Marcos", "Paula", "Adrián", "Marina", "Carlos", "Cristina", "Alberto", "Isabel"};
+        long startTime = System.nanoTime();
+        improvedBubbleSort(arr);
+        long endTime = System.nanoTime();
+        long duration = (endTime - startTime); // Tiempo en milisegundos
+
+        System.out.println("Tiempo de ejecucion: " + duration + " nanosegundos");
+        System.out.println("Memoria consumida: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) + " bytes");
+        System.out.println("Cantidad de iteraciones: " + iterations);
+    }
+
+    public static void improvedBubbleSort(String[] arr) {
+        int n = arr.length;
+        boolean swapped;
+        for (int i = 0; i < n - 1; i++) {
+            swapped = false;
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j].compareTo(arr[j + 1]) > 0) {
+                    String temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                    swapped = true;
+                }
+                iterations++;
+            }
+            // If no two elements were swapped by inner loop, then break
+            if (!swapped) {
+                break;
+            }
+        }
+    }
+}
+`,
+`import java.util.Arrays;
+
+public class Main {
+    private static int iterations = 0;
+
+    public static void main(String[] args) {
+        String[] arr = {"Juan", "María", "Carlos", "Ana", "Pedro", "Sofía", "Luis", "Laura", "Diego", "Marta", "Miguel", "Elena", "Javier", "Lucía", "Pablo", "Valentina", "Andrés", "Camila", "José", "Andrea", "Daniel", "Beatriz", "Alejandro", "Sara", "Manuel", "Isabel", "Sergio", "Julia", "Jorge", "Victoria", "Raúl", "Natalia", "Iván", "Carmen", "Francisco", "Alba", "Rubén", "Elena", "Alberto", "Sara", "Adrián", "María", "Sergio", "Andrea", "Pablo", "Lucía", "Luis", "Paula", "Guillermo", "Marta", "Javier", "Laura", "Raúl", "Clara", "Ángel", "Noelia", "Gabriel", "Cristina", "Jesús", "Martina", "Fernando", "Carmen", "Víctor", "Patricia",     "Ricardo", "Andrea", "Gonzalo", "María", "Óscar", "Sara", "Rubén", "Julia", "Samuel", "Sofía", "Francisco", "Marta", "Diego", "Andrea", "Juan", "Laura", "Javier", "Clara", "José", "Elena", "Mario", "Natalia", "Marcos", "Paula", "Adrián", "Marina", "Carlos", "Cristina", "Alberto", "Isabel"};
+        long startTime = System.nanoTime();
+        quickSort(arr, 0, arr.length - 1);
+        long endTime = System.nanoTime();
+        long duration = (endTime - startTime); // Tiempo en milisegundos
+
+        System.out.println("Tiempo de ejecucion: " + duration + " nanosegundos");
+        System.out.println("Memoria consumida: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) + " bytes");
+        System.out.println("Cantidad de iteraciones: " + iterations);
+    }
+
+    public static void quickSort(String[] arr, int low, int high) {
+        if (low < high) {
+            int pi = partition(arr, low, high);
+            quickSort(arr, low, pi - 1);
+            quickSort(arr, pi + 1, high);
+        }
+    }
+
+    private static int partition(String[] arr, int low, int high) {
+        String pivot = arr[high];
+        int i = low - 1;
+        for (int j = low; j < high; j++) {
+            if (arr[j].compareTo(pivot) < 0) {
+                i++;
+                String temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+            iterations++;
+        }
+        String temp = arr[i + 1];
+        arr[i + 1] = arr[high];
+        arr[high] = temp;
+        return i + 1;
+    }
+}
+`,
+`public class Main {
+  public static void main(String[] args) {
+      int[] array = {1098, 1027, 1007, 1002, 1020, 1001, 1021, 1106, 1019, 1084, 1052, 1044, 1008, 1097, 1006, 1026, 1089, 1030, 1088, 1035, 1094, 1036, 1016, 1022, 1054, 1014, 1009, 1067, 1045, 1087, 1064, 1003, 1074, 1091, 1018, 1023, 1071, 1039, 1032, 1062, 1037, 1043, 1031, 1041, 1028, 1010, 1068, 1056, 1073, 1034, 1050, 1060, 1081, 1049, 1040, 1065, 1092, 1053, 1079, 1029, 1090, 1047, 1057, 1095, 1013, 1066, 1075, 1017, 1083, 1069, 1011, 1076, 1015, 1042, 1082, 1070, 1048, 1025, 1086, 1096, 1058, 1059, 1078, 1099, 1077, 1085, 1061, 1080, 1033, 1038, 1004, 1005, 1012, 1024, 1051, 1055, 1046, 1072, 1100, 1103, 1105, 1104};
+
+      long startTime = System.nanoTime();
+      int iterations = bubbleSort(array);
+      long endTime = System.nanoTime();
+
+      System.out.println("Tiempo de ejecución (en nanosegundos): " + ((endTime - startTime)));
+      System.out.println("Memoria consumida (en bytes): " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()));
+      System.out.println("Iteraciones: " + iterations);
+  }
+
+  static int bubbleSort(int[] array) {
+      int n = array.length;
+      int iterations = 0;
+      for (int i = 0; i < n-1; i++) {
+          for (int j = 0; j < n-i-1; j++) {
+              iterations++;
+              if (array[j] > array[j+1]) {
+                  // swap arr[j+1] and arr[i]
+                  int temp = array[j];
+                  array[j] = array[j+1];
+                  array[j+1] = temp;
+              }
+          }
+      }
+      return iterations;
+  }
+}
+
+`,
+`public class Main {
+  public static void main(String[] args) {
+      int[] array = {1098, 1027, 1007, 1002, 1020, 1001, 1021, 1106, 1019, 1084, 1052, 1044, 1008, 1097, 1006, 1026, 1089, 1030, 1088, 1035, 1094, 1036, 1016, 1022, 1054, 1014, 1009, 1067, 1045, 1087, 1064, 1003, 1074, 1091, 1018, 1023, 1071, 1039, 1032, 1062, 1037, 1043, 1031, 1041, 1028, 1010, 1068, 1056, 1073, 1034, 1050, 1060, 1081, 1049, 1040, 1065, 1092, 1053, 1079, 1029, 1090, 1047, 1057, 1095, 1013, 1066, 1075, 1017, 1083, 1069, 1011, 1076, 1015, 1042, 1082, 1070, 1048, 1025, 1086, 1096, 1058, 1059, 1078, 1099, 1077, 1085, 1061, 1080, 1033, 1038, 1004, 1005, 1012, 1024, 1051, 1055, 1046, 1072, 1100, 1103, 1105, 1104};
+
+      long startTime = System.nanoTime();
+      int iterations = improvedBubbleSort(array);
+      long endTime = System.nanoTime();
+
+      System.out.println("Tiempo de ejecución (en nanosegundos): " + ((endTime - startTime)));
+      System.out.println("Memoria consumida (en bytes): " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()));
+      System.out.println("Iteraciones: " + iterations);
+  }
+
+  static int improvedBubbleSort(int[] array) {
+      int n = array.length;
+      int iterations = 0;
+      boolean swapped;
+      for (int i = 0; i < n-1; i++) {
+          swapped = false;
+          for (int j = 0; j < n-i-1; j++) {
+              iterations++;
+              if (array[j] > array[j+1]) {
+                  // swap arr[j+1] and arr[i]
+                  int temp = array[j];
+                  array[j] = array[j+1];
+                  array[j+1] = temp;
+                  swapped = true;
+              }
+          }
+          // Si no hubo intercambios en esta pasada, el array ya está ordenado
+          if (!swapped) {
+              break;
+          }
+      }
+      return iterations;
+  }
+}
+
+`,
+`public class Main {
+  public static void main(String[] args) {
+      int[] array = {1098, 1027, 1007, 1002, 1020, 1001, 1021, 1106, 1019, 1084, 1052, 1044, 1008, 1097, 1006, 1026, 1089, 1030, 1088, 1035, 1094, 1036, 1016, 1022, 1054, 1014, 1009, 1067, 1045, 1087, 1064, 1003, 1074, 1091, 1018, 1023, 1071, 1039, 1032, 1062, 1037, 1043, 1031, 1041, 1028, 1010, 1068, 1056, 1073, 1034, 1050, 1060, 1081, 1049, 1040, 1065, 1092, 1053, 1079, 1029, 1090, 1047, 1057, 1095, 1013, 1066, 1075, 1017, 1083, 1069, 1011, 1076, 1015, 1042, 1082, 1070, 1048, 1025, 1086, 1096, 1058, 1059, 1078, 1099, 1077, 1085, 1061, 1080, 1033, 1038, 1004, 1005, 1012, 1024, 1051, 1055, 1046, 1072, 1100, 1103, 1105, 1104};
+
+      long startTime = System.nanoTime();
+      int[] result = quickSort(array, 0, array.length - 1);
+      long endTime = System.nanoTime();
+
+      System.out.println("Tiempo de ejecución (en nanosegundos): " + ((endTime - startTime)));
+      System.out.println("Memoria consumida (en bytes): " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()));
+      System.out.println("Comparaciones: " + result[0]);
+  }
+
+  static int[] quickSort(int[] array, int low, int high) {
+      int comparisons = 0;
+      if (low < high) {
+          /* pi es el índice de partición, arr[pi] está en su lugar */
+          int[] piResult = partition(array, low, high);
+          int pi = piResult[0];
+          comparisons += piResult[1];
+
+          // Ordenar los elementos antes y después de la partición
+          int[] leftResult = quickSort(array, low, pi - 1);
+          int[] rightResult = quickSort(array, pi + 1, high);
+          comparisons += leftResult[0] + rightResult[0];
+      }
+      return new int[]{comparisons};
+  }
+
+  static int[] partition(int[] array, int low, int high) {
+      int pivot = array[high]; // pivote
+      int i = (low - 1); // índice del elemento más pequeño
+      int comparisons = 0;
+      for (int j = low; j < high; j++) {
+          // Si el elemento actual es menor que el pivote
+          if (array[j] < pivot) {
+              i++;
+
+              // swap arr[i] y arr[j]
+              int temp = array[i];
+              array[i] = array[j];
+              array[j] = temp;
+          }
+          comparisons++; // Incrementar el contador de comparaciones
+      }
+
+      // swap arr[i+1] y arr[high] (o el pivote)
+      int temp = array[i + 1];
+      array[i + 1] = array[high];
+      array[high] = temp;
+
+      return new int[]{i + 1, comparisons};
+  }
+}
+`,
+`import java.util.Arrays;
+
+public class Main {
+    private static int iterations = 0;
+
+    public static void main(String[] args) {
+        String[] arr = {"Victoria", "Víctor", "Valentina", "Sofía", "Sofía", "Sergio", "Samuel", "Sara", "Sara", "Sara", "Sara", "Rubén", "Rubén", "Ricardo", "Raúl", "Raúl", "Pedro", "Patricia", "Pablo", "Pablo",     "Natalia", "Natalia", "Miguel", "María", "María", "María", "María", "Martina", "Martina", "Martina", "Marta", "Marta", "Marta", "Luis", "Luis", "Lucía", "Lucía", "Lucía", "Laura", "Laura", "Laura", "Laura", "Juan", "José", "José", "Jorge", "Jesús", "Javier", "Javier", "Iván", "Isabel", "Guillermo", "Gonzalo", "Gabriel", "Francisco", "Francisco", "Fernando", "Fernando", "Elena", "Elena", "Diego", "Diego", "Cristina", "Cristina", "Claudia", "Claudia", "Carmen", "Carmen", "Carlos", "Carlos", "Camila", "Camila", "Beatriz", "Beatriz", "Antonio", "Andrés", "Andrea", "Andrea", "Ana", "Alba", "Alejandro", "Alberto", "Adrián"};
+        long startTime = System.nanoTime();
+        bubbleSort(arr);
+        long endTime = System.nanoTime();
+        long duration = (endTime - startTime);
+
+        System.out.println("Tiempo de ejecucion: " + duration + " nanosegundos");
+        System.out.println("Memoria consumida: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) + " bytes");
+        System.out.println("Cantidad de iteraciones: " + iterations);
+    }
+
+    public static void bubbleSort(String[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j].compareTo(arr[j + 1]) > 0) {
+                    String temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+                iterations++;
+            }
+        }
+    }
+}
+`,
+`import java.util.Arrays;
+
+public class Main {
+    private static int iterations = 0;
+
+    public static void main(String[] args) {
+        String[] arr = {"Victoria", "Víctor", "Valentina", "Sofía", "Sofía", "Sergio", "Samuel", "Sara", "Sara", "Sara", "Sara", "Rubén", "Rubén", "Ricardo", "Raúl", "Raúl", "Pedro", "Patricia", "Pablo", "Pablo",     "Natalia", "Natalia", "Miguel", "María", "María", "María", "María", "Martina", "Martina", "Martina", "Marta", "Marta", "Marta", "Luis", "Luis", "Lucía", "Lucía", "Lucía", "Laura", "Laura", "Laura", "Laura", "Juan", "José", "José", "Jorge", "Jesús", "Javier", "Javier", "Iván", "Isabel", "Guillermo", "Gonzalo", "Gabriel", "Francisco", "Francisco", "Fernando", "Fernando", "Elena", "Elena", "Diego", "Diego", "Cristina", "Cristina", "Claudia", "Claudia", "Carmen", "Carmen", "Carlos", "Carlos", "Camila", "Camila", "Beatriz", "Beatriz", "Antonio", "Andrés", "Andrea", "Andrea", "Ana", "Alba", "Alejandro", "Alberto", "Adrián"};
+        long startTime = System.nanoTime();
+        improvedBubbleSort(arr);
+        long endTime = System.nanoTime();
+        long duration = (endTime - startTime); // Tiempo en milisegundos
+
+        System.out.println("Tiempo de ejecucion: " + duration + " nanosegundos");
+        System.out.println("Memoria consumida: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) + " bytes");
+        System.out.println("Cantidad de iteraciones: " + iterations);
+    }
+
+    public static void improvedBubbleSort(String[] arr) {
+        int n = arr.length;
+        boolean swapped;
+        for (int i = 0; i < n - 1; i++) {
+            swapped = false;
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j].compareTo(arr[j + 1]) > 0) {
+                    String temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                    swapped = true;
+                }
+                iterations++;
+            }
+            // If no two elements were swapped by inner loop, then break
+            if (!swapped) {
+                break;
+            }
+        }
+    }
+}
+`,
+`import java.util.Arrays;
+
+public class Main {
+    private static int iterations = 0;
+
+    public static void main(String[] args) {
+        String[] arr = {"Victoria", "Víctor", "Valentina", "Sofía", "Sofía", "Sergio", "Samuel", "Sara", "Sara", "Sara", "Sara", "Rubén", "Rubén", "Ricardo", "Raúl", "Raúl", "Pedro", "Patricia", "Pablo", "Pablo",     "Natalia", "Natalia", "Miguel", "María", "María", "María", "María", "Martina", "Martina", "Martina", "Marta", "Marta", "Marta", "Luis", "Luis", "Lucía", "Lucía", "Lucía", "Laura", "Laura", "Laura", "Laura", "Juan", "José", "José", "Jorge", "Jesús", "Javier", "Javier", "Iván", "Isabel", "Guillermo", "Gonzalo", "Gabriel", "Francisco", "Francisco", "Fernando", "Fernando", "Elena", "Elena", "Diego", "Diego", "Cristina", "Cristina", "Claudia", "Claudia", "Carmen", "Carmen", "Carlos", "Carlos", "Camila", "Camila", "Beatriz", "Beatriz", "Antonio", "Andrés", "Andrea", "Andrea", "Ana", "Alba", "Alejandro", "Alberto", "Adrián"};
+        long startTime = System.nanoTime();
+        quickSort(arr, 0, arr.length - 1);
+        long endTime = System.nanoTime();
+        long duration = (endTime - startTime); // Tiempo en milisegundos
+
+        System.out.println("Tiempo de ejecucion: " + duration + " nanosegundos");
+        System.out.println("Memoria consumida: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) + " bytes");
+        System.out.println("Cantidad de iteraciones: " + iterations);
+    }
+
+    public static void quickSort(String[] arr, int low, int high) {
+        if (low < high) {
+            int pi = partition(arr, low, high);
+            quickSort(arr, low, pi - 1);
+            quickSort(arr, pi + 1, high);
+        }
+    }
+
+    private static int partition(String[] arr, int low, int high) {
+        String pivot = arr[high];
+        int i = low - 1;
+        for (int j = low; j < high; j++) {
+            if (arr[j].compareTo(pivot) < 0) {
+                i++;
+                String temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+            iterations++;
+        }
+        String temp = arr[i + 1];
+        arr[i + 1] = arr[high];
+        arr[high] = temp;
+        return i + 1;
+    }
+}
+`,
+`public class Main {
+  public static void main(String[] args) {
+      int[] array = {1106, 1105, 1104, 1103, 1100, 1099, 1098, 1097, 1096, 1095, 1094, 1092, 1091, 1090, 1089, 1088, 1087, 1086, 1085, 1084, 1083, 1082, 1081, 1080, 1079, 1078, 1077, 1076, 1075, 1074, 1073, 1072, 1071, 1070, 1069, 1068, 1067, 1066, 1065, 1064, 1062, 1061, 1060, 1059, 1058, 1057, 1056, 1055, 1054, 1053, 1052, 1051, 1050, 1049, 1048, 1047, 1046, 1045, 1044, 1043, 1042, 1041, 1040, 1039, 1038, 1037, 1036, 1035, 1034, 1033, 1032, 1031, 1030, 1029, 1028, 1027, 1026, 1025, 1024, 1023, 1022, 1021, 1020, 1019, 1018, 1017, 1016, 1015, 1014, 1013, 1012, 1011, 1010, 1009, 1008, 1007, 1006, 1005, 1004, 1003, 1002, 1001};
+
+      long startTime = System.nanoTime();
+      int iterations = bubbleSort(array);
+      long endTime = System.nanoTime();
+
+      System.out.println("Tiempo de ejecución (en nanosegundos): " + ((endTime - startTime)));
+      System.out.println("Memoria consumida (en bytes): " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()));
+      System.out.println("Iteraciones: " + iterations);
+  }
+
+  static int bubbleSort(int[] array) {
+      int n = array.length;
+      int iterations = 0;
+      for (int i = 0; i < n-1; i++) {
+          for (int j = 0; j < n-i-1; j++) {
+              iterations++;
+              if (array[j] > array[j+1]) {
+                  // swap arr[j+1] and arr[i]
+                  int temp = array[j];
+                  array[j] = array[j+1];
+                  array[j+1] = temp;
+              }
+          }
+      }
+      return iterations;
+  }
+}
+
+`,
+`public class Main {
+  public static void main(String[] args) {
+      int[] array = {1106, 1105, 1104, 1103, 1100, 1099, 1098, 1097, 1096, 1095, 1094, 1092, 1091, 1090, 1089, 1088, 1087, 1086, 1085, 1084, 1083, 1082, 1081, 1080, 1079, 1078, 1077, 1076, 1075, 1074, 1073, 1072, 1071, 1070, 1069, 1068, 1067, 1066, 1065, 1064, 1062, 1061, 1060, 1059, 1058, 1057, 1056, 1055, 1054, 1053, 1052, 1051, 1050, 1049, 1048, 1047, 1046, 1045, 1044, 1043, 1042, 1041, 1040, 1039, 1038, 1037, 1036, 1035, 1034, 1033, 1032, 1031, 1030, 1029, 1028, 1027, 1026, 1025, 1024, 1023, 1022, 1021, 1020, 1019, 1018, 1017, 1016, 1015, 1014, 1013, 1012, 1011, 1010, 1009, 1008, 1007, 1006, 1005, 1004, 1003, 1002, 1001};
+
+      long startTime = System.nanoTime();
+      int iterations = improvedBubbleSort(array);
+      long endTime = System.nanoTime();
+
+      System.out.println("Tiempo de ejecución (en nanosegundos): " + ((endTime - startTime)));
+      System.out.println("Memoria consumida (en bytes): " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()));
+      System.out.println("Iteraciones: " + iterations);
+  }
+
+  static int improvedBubbleSort(int[] array) {
+      int n = array.length;
+      int iterations = 0;
+      boolean swapped;
+      for (int i = 0; i < n-1; i++) {
+          swapped = false;
+          for (int j = 0; j < n-i-1; j++) {
+              iterations++;
+              if (array[j] > array[j+1]) {
+                  // swap arr[j+1] and arr[i]
+                  int temp = array[j];
+                  array[j] = array[j+1];
+                  array[j+1] = temp;
+                  swapped = true;
+              }
+          }
+          // Si no hubo intercambios en esta pasada, el array ya está ordenado
+          if (!swapped) {
+              break;
+          }
+      }
+      return iterations;
+  }
+}
+
+`,
+`public class Main {
+  public static void main(String[] args) {
+      int[] array = {1106, 1105, 1104, 1103, 1100, 1099, 1098, 1097, 1096, 1095, 1094, 1092, 1091, 1090, 1089, 1088, 1087, 1086, 1085, 1084, 1083, 1082, 1081, 1080, 1079, 1078, 1077, 1076, 1075, 1074, 1073, 1072, 1071, 1070, 1069, 1068, 1067, 1066, 1065, 1064, 1062, 1061, 1060, 1059, 1058, 1057, 1056, 1055, 1054, 1053, 1052, 1051, 1050, 1049, 1048, 1047, 1046, 1045, 1044, 1043, 1042, 1041, 1040, 1039, 1038, 1037, 1036, 1035, 1034, 1033, 1032, 1031, 1030, 1029, 1028, 1027, 1026, 1025, 1024, 1023, 1022, 1021, 1020, 1019, 1018, 1017, 1016, 1015, 1014, 1013, 1012, 1011, 1010, 1009, 1008, 1007, 1006, 1005, 1004, 1003, 1002, 1001};
+
+      long startTime = System.nanoTime();
+      int[] result = quickSort(array, 0, array.length - 1);
+      long endTime = System.nanoTime();
+
+      System.out.println("Tiempo de ejecución (en nanosegundos): " + ((endTime - startTime)));
+      System.out.println("Memoria consumida (en bytes): " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()));
+      System.out.println("Comparaciones: " + result[0]);
+  }
+
+  static int[] quickSort(int[] array, int low, int high) {
+      int comparisons = 0;
+      if (low < high) {
+          /* pi es el índice de partición, arr[pi] está en su lugar */
+          int[] piResult = partition(array, low, high);
+          int pi = piResult[0];
+          comparisons += piResult[1];
+
+          // Ordenar los elementos antes y después de la partición
+          int[] leftResult = quickSort(array, low, pi - 1);
+          int[] rightResult = quickSort(array, pi + 1, high);
+          comparisons += leftResult[0] + rightResult[0];
+      }
+      return new int[]{comparisons};
+  }
+
+  static int[] partition(int[] array, int low, int high) {
+      int pivot = array[high]; // pivote
+      int i = (low - 1); // índice del elemento más pequeño
+      int comparisons = 0;
+      for (int j = low; j < high; j++) {
+          // Si el elemento actual es menor que el pivote
+          if (array[j] < pivot) {
+              i++;
+
+              // swap arr[i] y arr[j]
+              int temp = array[i];
+              array[i] = array[j];
+              array[j] = temp;
+          }
+          comparisons++; // Incrementar el contador de comparaciones
+      }
+
+      // swap arr[i+1] y arr[high] (o el pivote)
+      int temp = array[i + 1];
+      array[i + 1] = array[high];
+      array[high] = temp;
+
+      return new int[]{i + 1, comparisons};
+  }
+}
+`,
+`import java.util.Arrays;
+
+public class Main {
+    private static int iterations = 0;
+
+    public static void main(String[] args) {
+        String[] arr = {"Sofía", "Martina", "Lucía", "Natalia", "Andrea", "Laura", "Carlos", "Ana", "Jesús", "Alejandro",    "Valentina", "Pedro", "Isabel", "Gabriel", "María", "Sara", "Gonzalo", "Marta", "Ricardo", "José",    "Lucía", "Adrián", "Samuel", "Diego", "Cristina", "Alberto", "Sara", "Pablo", "Laura", "Cristina",    "Claudia", "Marta", "Fernando", "Alba", "Victoria", "Laura", "Guillermo", "Sara", "Antonio", "Rubén",    "María", "Javier", "Beatriz", "Laura", "Francisco", "Ricardo", "Andrés", "Víctor", "Ricardo", "Jorge",    "Javier", "Patricia", "Natalia", "Carmen", "Alejandro", "Beatriz", "Laura", "Laura", "Laura", "Pablo",    "Martina", "Ricardo", "Ricardo", "Javier", "Sara", "Diego", "Laura", "Adrián", "Lucía", "María", "Laura",    "Laura", "Alberto", "Laura", "Sara", "Francisco", "Andrea", "Pablo", "Lucía", "Andrea", "Lucía", "Laura",    "Carmen", "Sergio", "José", "Carlos", "María", "Laura", "Javier", "Laura", "Ricardo", "Andrea", "María",    "Alberto", "Laura", "Fernando",    "Sofía", "Martina", "Lucía", "Natalia", "Andrea", "Laura", "Carlos", "Ana", "Jesús", "Alejandro",    "Valentina", "Pedro", "Isabel", "Gabriel", "María", "Sara", "Gonzalo", "Marta", "Ricardo", "José",    "Lucía", "Adrián", "Samuel", "Diego", "Cristina", "Alberto", "Sara", "Pablo", "Laura", "Cristina",    "Claudia", "Marta", "Fernando", "Alba", "Victoria", "Laura", "Guillermo", "Sara", "Antonio", "Rubén",    "María", "Javier", "Beatriz", "Laura", "Francisco", "Ricardo", "Andrés", "Víctor", "Ricardo", "Jorge",    "Javier", "Patricia", "Natalia", "Carmen", "Alejandro", "Beatriz", "Laura", "Laura", "Laura", "Pablo",    "Martina", "Ricardo", "Ricardo", "Javier", "Sara", "Diego", "Laura", "Adrián", "Lucía", "María", "Laura",    "Laura", "Alberto", "Laura", "Sara", "Francisco", "Andrea", "Pablo", "Lucía", "Andrea", "Lucía", "Laura",    "Carmen", "Sergio", "José", "Carlos", "María", "Laura", "Javier", "Laura", "Ricardo", "Andrea", "María",    "Alberto", "Laura", "Fernando"};
+        long startTime = System.nanoTime();
+        bubbleSort(arr);
+        long endTime = System.nanoTime();
+        long duration = (endTime - startTime);
+
+        System.out.println("Tiempo de ejecucion: " + duration + " nanosegundos");
+        System.out.println("Memoria consumida: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) + " bytes");
+        System.out.println("Cantidad de iteraciones: " + iterations);
+    }
+
+    public static void bubbleSort(String[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j].compareTo(arr[j + 1]) > 0) {
+                    String temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+                iterations++;
+            }
+        }
+    }
+}
+`,
+`import java.util.Arrays;
+
+public class Main {
+    private static int iterations = 0;
+
+    public static void main(String[] args) {
+        String[] arr = {"Sofía", "Martina", "Lucía", "Natalia", "Andrea", "Laura", "Carlos", "Ana", "Jesús", "Alejandro",    "Valentina", "Pedro", "Isabel", "Gabriel", "María", "Sara", "Gonzalo", "Marta", "Ricardo", "José",    "Lucía", "Adrián", "Samuel", "Diego", "Cristina", "Alberto", "Sara", "Pablo", "Laura", "Cristina",    "Claudia", "Marta", "Fernando", "Alba", "Victoria", "Laura", "Guillermo", "Sara", "Antonio", "Rubén",    "María", "Javier", "Beatriz", "Laura", "Francisco", "Ricardo", "Andrés", "Víctor", "Ricardo", "Jorge",    "Javier", "Patricia", "Natalia", "Carmen", "Alejandro", "Beatriz", "Laura", "Laura", "Laura", "Pablo",    "Martina", "Ricardo", "Ricardo", "Javier", "Sara", "Diego", "Laura", "Adrián", "Lucía", "María", "Laura",    "Laura", "Alberto", "Laura", "Sara", "Francisco", "Andrea", "Pablo", "Lucía", "Andrea", "Lucía", "Laura",    "Carmen", "Sergio", "José", "Carlos", "María", "Laura", "Javier", "Laura", "Ricardo", "Andrea", "María",    "Alberto", "Laura", "Fernando",    "Sofía", "Martina", "Lucía", "Natalia", "Andrea", "Laura", "Carlos", "Ana", "Jesús", "Alejandro",    "Valentina", "Pedro", "Isabel", "Gabriel", "María", "Sara", "Gonzalo", "Marta", "Ricardo", "José",    "Lucía", "Adrián", "Samuel", "Diego", "Cristina", "Alberto", "Sara", "Pablo", "Laura", "Cristina",    "Claudia", "Marta", "Fernando", "Alba", "Victoria", "Laura", "Guillermo", "Sara", "Antonio", "Rubén",    "María", "Javier", "Beatriz", "Laura", "Francisco", "Ricardo", "Andrés", "Víctor", "Ricardo", "Jorge",    "Javier", "Patricia", "Natalia", "Carmen", "Alejandro", "Beatriz", "Laura", "Laura", "Laura", "Pablo",    "Martina", "Ricardo", "Ricardo", "Javier", "Sara", "Diego", "Laura", "Adrián", "Lucía", "María", "Laura",    "Laura", "Alberto", "Laura", "Sara", "Francisco", "Andrea", "Pablo", "Lucía", "Andrea", "Lucía", "Laura",    "Carmen", "Sergio", "José", "Carlos", "María", "Laura", "Javier", "Laura", "Ricardo", "Andrea", "María",    "Alberto", "Laura", "Fernando"};
+        long startTime = System.nanoTime();
+        improvedBubbleSort(arr);
+        long endTime = System.nanoTime();
+        long duration = (endTime - startTime); // Tiempo en milisegundos
+
+        System.out.println("Tiempo de ejecucion: " + duration + " nanosegundos");
+        System.out.println("Memoria consumida: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) + " bytes");
+        System.out.println("Cantidad de iteraciones: " + iterations);
+    }
+
+    public static void improvedBubbleSort(String[] arr) {
+        int n = arr.length;
+        boolean swapped;
+        for (int i = 0; i < n - 1; i++) {
+            swapped = false;
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j].compareTo(arr[j + 1]) > 0) {
+                    String temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                    swapped = true;
+                }
+                iterations++;
+            }
+            // If no two elements were swapped by inner loop, then break
+            if (!swapped) {
+                break;
+            }
+        }
+    }
+}
+`,
+`import java.util.Arrays;
+
+public class Main {
+    private static int iterations = 0;
+
+    public static void main(String[] args) {
+        String[] arr = {"Sofía", "Martina", "Lucía", "Natalia", "Andrea", "Laura", "Carlos", "Ana", "Jesús", "Alejandro",    "Valentina", "Pedro", "Isabel", "Gabriel", "María", "Sara", "Gonzalo", "Marta", "Ricardo", "José",    "Lucía", "Adrián", "Samuel", "Diego", "Cristina", "Alberto", "Sara", "Pablo", "Laura", "Cristina",    "Claudia", "Marta", "Fernando", "Alba", "Victoria", "Laura", "Guillermo", "Sara", "Antonio", "Rubén",    "María", "Javier", "Beatriz", "Laura", "Francisco", "Ricardo", "Andrés", "Víctor", "Ricardo", "Jorge",    "Javier", "Patricia", "Natalia", "Carmen", "Alejandro", "Beatriz", "Laura", "Laura", "Laura", "Pablo",    "Martina", "Ricardo", "Ricardo", "Javier", "Sara", "Diego", "Laura", "Adrián", "Lucía", "María", "Laura",    "Laura", "Alberto", "Laura", "Sara", "Francisco", "Andrea", "Pablo", "Lucía", "Andrea", "Lucía", "Laura",    "Carmen", "Sergio", "José", "Carlos", "María", "Laura", "Javier", "Laura", "Ricardo", "Andrea", "María",    "Alberto", "Laura", "Fernando",    "Sofía", "Martina", "Lucía", "Natalia", "Andrea", "Laura", "Carlos", "Ana", "Jesús", "Alejandro",    "Valentina", "Pedro", "Isabel", "Gabriel", "María", "Sara", "Gonzalo", "Marta", "Ricardo", "José",    "Lucía", "Adrián", "Samuel", "Diego", "Cristina", "Alberto", "Sara", "Pablo", "Laura", "Cristina",    "Claudia", "Marta", "Fernando", "Alba", "Victoria", "Laura", "Guillermo", "Sara", "Antonio", "Rubén",    "María", "Javier", "Beatriz", "Laura", "Francisco", "Ricardo", "Andrés", "Víctor", "Ricardo", "Jorge",    "Javier", "Patricia", "Natalia", "Carmen", "Alejandro", "Beatriz", "Laura", "Laura", "Laura", "Pablo",    "Martina", "Ricardo", "Ricardo", "Javier", "Sara", "Diego", "Laura", "Adrián", "Lucía", "María", "Laura",    "Laura", "Alberto", "Laura", "Sara", "Francisco", "Andrea", "Pablo", "Lucía", "Andrea", "Lucía", "Laura",    "Carmen", "Sergio", "José", "Carlos", "María", "Laura", "Javier", "Laura", "Ricardo", "Andrea", "María",    "Alberto", "Laura", "Fernando"};
+        long startTime = System.nanoTime();
+        quickSort(arr, 0, arr.length - 1);
+        long endTime = System.nanoTime();
+        long duration = (endTime - startTime); // Tiempo en milisegundos
+
+        System.out.println("Tiempo de ejecucion: " + duration + " nanosegundos");
+        System.out.println("Memoria consumida: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) + " bytes");
+        System.out.println("Cantidad de iteraciones: " + iterations);
+    }
+
+    public static void quickSort(String[] arr, int low, int high) {
+        if (low < high) {
+            int pi = partition(arr, low, high);
+            quickSort(arr, low, pi - 1);
+            quickSort(arr, pi + 1, high);
+        }
+    }
+
+    private static int partition(String[] arr, int low, int high) {
+        String pivot = arr[high];
+        int i = low - 1;
+        for (int j = low; j < high; j++) {
+            if (arr[j].compareTo(pivot) < 0) {
+                i++;
+                String temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+            iterations++;
+        }
+        String temp = arr[i + 1];
+        arr[i + 1] = arr[high];
+        arr[high] = temp;
+        return i + 1;
+    }
+}
+`,
+`public class Main {
+  public static void main(String[] args) {
+      int[] array = {1098, 1027, 1007, 1002, 1020, 1001, 1021, 1106, 1019, 1084, 1052, 1044, 1008, 1097, 1006, 1026, 1089, 1030, 1088, 1035, 1094, 1036, 1016, 1022, 1054, 1014, 1009, 1067, 1045, 1087, 1064, 1003, 1074, 1091, 1018, 1023, 1071, 1039, 1032, 1062, 1037, 1043, 1031, 1041, 1028, 1010, 1068, 1056, 1073, 1034, 1050, 1060, 1081, 1049, 1040, 1065, 1092, 1053, 1079, 1029, 1090, 1047, 1057, 1095, 1013, 1066, 1075, 1017, 1083, 1069, 1011, 1076, 1015, 1042, 1082, 1070, 1048, 1025, 1086, 1096, 1058, 1059, 1078, 1099, 1077, 1085, 1061, 1080, 1033, 1038, 1004, 1005, 1012, 1024, 1051, 1055, 1046, 1072, 1100, 1103, 1105, 1104, 1098, 1027, 1007, 1002, 1020, 1001, 1021, 1106, 1019, 1084, 1052, 1044, 1008, 1097, 1006, 1026, 1089, 1030, 1088, 1035, 1094, 1036, 1016, 1022, 1054, 1014, 1009, 1067, 1045, 1087, 1064, 1003, 1074, 1091, 1018, 1023, 1071, 1039, 1032, 1062, 1037, 1043, 1031, 1041, 1028, 1010, 1068, 1056, 1073, 1034, 1050, 1060, 1081, 1049, 1040, 1065, 1092, 1053, 1079, 1029, 1090, 1047, 1057, 1095, 1013, 1066, 1075, 1017, 1083, 1069, 1011, 1076, 1015, 1042, 1082, 1070, 1048, 1025, 1086, 1096, 1058, 1059, 1078, 1099, 1077, 1085, 1061, 1080, 1033, 1038, 1004, 1005, 1012, 1024, 1051, 1055, 1046, 1072, 1100, 1103, 1105, 1104};
+
+      long startTime = System.nanoTime();
+      int iterations = bubbleSort(array);
+      long endTime = System.nanoTime();
+
+      System.out.println("Tiempo de ejecución (en nanosegundos): " + ((endTime - startTime)));
+      System.out.println("Memoria consumida (en bytes): " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()));
+      System.out.println("Iteraciones: " + iterations);
+  }
+
+  static int bubbleSort(int[] array) {
+      int n = array.length;
+      int iterations = 0;
+      for (int i = 0; i < n-1; i++) {
+          for (int j = 0; j < n-i-1; j++) {
+              iterations++;
+              if (array[j] > array[j+1]) {
+                  // swap arr[j+1] and arr[i]
+                  int temp = array[j];
+                  array[j] = array[j+1];
+                  array[j+1] = temp;
+              }
+          }
+      }
+      return iterations;
+  }
+}
+
+`,
+`public class Main {
+  public static void main(String[] args) {
+      int[] array = {1098, 1027, 1007, 1002, 1020, 1001, 1021, 1106, 1019, 1084, 1052, 1044, 1008, 1097, 1006, 1026, 1089, 1030, 1088, 1035, 1094, 1036, 1016, 1022, 1054, 1014, 1009, 1067, 1045, 1087, 1064, 1003, 1074, 1091, 1018, 1023, 1071, 1039, 1032, 1062, 1037, 1043, 1031, 1041, 1028, 1010, 1068, 1056, 1073, 1034, 1050, 1060, 1081, 1049, 1040, 1065, 1092, 1053, 1079, 1029, 1090, 1047, 1057, 1095, 1013, 1066, 1075, 1017, 1083, 1069, 1011, 1076, 1015, 1042, 1082, 1070, 1048, 1025, 1086, 1096, 1058, 1059, 1078, 1099, 1077, 1085, 1061, 1080, 1033, 1038, 1004, 1005, 1012, 1024, 1051, 1055, 1046, 1072, 1100, 1103, 1105, 1104, 1098, 1027, 1007, 1002, 1020, 1001, 1021, 1106, 1019, 1084, 1052, 1044, 1008, 1097, 1006, 1026, 1089, 1030, 1088, 1035, 1094, 1036, 1016, 1022, 1054, 1014, 1009, 1067, 1045, 1087, 1064, 1003, 1074, 1091, 1018, 1023, 1071, 1039, 1032, 1062, 1037, 1043, 1031, 1041, 1028, 1010, 1068, 1056, 1073, 1034, 1050, 1060, 1081, 1049, 1040, 1065, 1092, 1053, 1079, 1029, 1090, 1047, 1057, 1095, 1013, 1066, 1075, 1017, 1083, 1069, 1011, 1076, 1015, 1042, 1082, 1070, 1048, 1025, 1086, 1096, 1058, 1059, 1078, 1099, 1077, 1085, 1061, 1080, 1033, 1038, 1004, 1005, 1012, 1024, 1051, 1055, 1046, 1072, 1100, 1103, 1105, 1104};
+
+      long startTime = System.nanoTime();
+      int iterations = improvedBubbleSort(array);
+      long endTime = System.nanoTime();
+
+      System.out.println("Tiempo de ejecución (en nanosegundos): " + ((endTime - startTime)));
+      System.out.println("Memoria consumida (en bytes): " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()));
+      System.out.println("Iteraciones: " + iterations);
+  }
+
+  static int improvedBubbleSort(int[] array) {
+      int n = array.length;
+      int iterations = 0;
+      boolean swapped;
+      for (int i = 0; i < n-1; i++) {
+          swapped = false;
+          for (int j = 0; j < n-i-1; j++) {
+              iterations++;
+              if (array[j] > array[j+1]) {
+                  // swap arr[j+1] and arr[i]
+                  int temp = array[j];
+                  array[j] = array[j+1];
+                  array[j+1] = temp;
+                  swapped = true;
+              }
+          }
+          // Si no hubo intercambios en esta pasada, el array ya está ordenado
+          if (!swapped) {
+              break;
+          }
+      }
+      return iterations;
+  }
+}
+
+`,
+`public class Main {
+  public static void main(String[] args) {
+      int[] array = {1098, 1027, 1007, 1002, 1020, 1001, 1021, 1106, 1019, 1084, 1052, 1044, 1008, 1097, 1006, 1026, 1089, 1030, 1088, 1035, 1094, 1036, 1016, 1022, 1054, 1014, 1009, 1067, 1045, 1087, 1064, 1003, 1074, 1091, 1018, 1023, 1071, 1039, 1032, 1062, 1037, 1043, 1031, 1041, 1028, 1010, 1068, 1056, 1073, 1034, 1050, 1060, 1081, 1049, 1040, 1065, 1092, 1053, 1079, 1029, 1090, 1047, 1057, 1095, 1013, 1066, 1075, 1017, 1083, 1069, 1011, 1076, 1015, 1042, 1082, 1070, 1048, 1025, 1086, 1096, 1058, 1059, 1078, 1099, 1077, 1085, 1061, 1080, 1033, 1038, 1004, 1005, 1012, 1024, 1051, 1055, 1046, 1072, 1100, 1103, 1105, 1104, 1098, 1027, 1007, 1002, 1020, 1001, 1021, 1106, 1019, 1084, 1052, 1044, 1008, 1097, 1006, 1026, 1089, 1030, 1088, 1035, 1094, 1036, 1016, 1022, 1054, 1014, 1009, 1067, 1045, 1087, 1064, 1003, 1074, 1091, 1018, 1023, 1071, 1039, 1032, 1062, 1037, 1043, 1031, 1041, 1028, 1010, 1068, 1056, 1073, 1034, 1050, 1060, 1081, 1049, 1040, 1065, 1092, 1053, 1079, 1029, 1090, 1047, 1057, 1095, 1013, 1066, 1075, 1017, 1083, 1069, 1011, 1076, 1015, 1042, 1082, 1070, 1048, 1025, 1086, 1096, 1058, 1059, 1078, 1099, 1077, 1085, 1061, 1080, 1033, 1038, 1004, 1005, 1012, 1024, 1051, 1055, 1046, 1072, 1100, 1103, 1105, 1104};
+
+      long startTime = System.nanoTime();
+      int[] result = quickSort(array, 0, array.length - 1);
+      long endTime = System.nanoTime();
+
+      System.out.println("Tiempo de ejecución (en nanosegundos): " + ((endTime - startTime)));
+      System.out.println("Memoria consumida (en bytes): " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()));
+      System.out.println("Comparaciones: " + result[0]);
+  }
+
+  static int[] quickSort(int[] array, int low, int high) {
+      int comparisons = 0;
+      if (low < high) {
+          /* pi es el índice de partición, arr[pi] está en su lugar */
+          int[] piResult = partition(array, low, high);
+          int pi = piResult[0];
+          comparisons += piResult[1];
+
+          // Ordenar los elementos antes y después de la partición
+          int[] leftResult = quickSort(array, low, pi - 1);
+          int[] rightResult = quickSort(array, pi + 1, high);
+          comparisons += leftResult[0] + rightResult[0];
+      }
+      return new int[]{comparisons};
+  }
+
+  static int[] partition(int[] array, int low, int high) {
+      int pivot = array[high]; // pivote
+      int i = (low - 1); // índice del elemento más pequeño
+      int comparisons = 0;
+      for (int j = low; j < high; j++) {
+          // Si el elemento actual es menor que el pivote
+          if (array[j] < pivot) {
+              i++;
+
+              // swap arr[i] y arr[j]
+              int temp = array[i];
+              array[i] = array[j];
+              array[j] = temp;
+          }
+          comparisons++; // Incrementar el contador de comparaciones
+      }
+
+      // swap arr[i+1] y arr[high] (o el pivote)
+      int temp = array[i + 1];
+      array[i + 1] = array[high];
+      array[high] = temp;
+
+      return new int[]{i + 1, comparisons};
+  }
+}
+`,
+`public class Main {
+  public static void main(String[] args) {
+      int[] array = generatePartiallySortedArray(1000);
+      
+      long startTime = System.nanoTime();
+      int[] result = bubbleSort(array);
+      long endTime = System.nanoTime();
+      
+      System.out.println("Tiempo de ejecución (en milisegundos): " + ((endTime - startTime) / 1000000));
+      System.out.println("Memoria consumida (en bytes): " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()));
+      System.out.println("Comparaciones: " + result[0]);
+  }
+  
+  static int[] bubbleSort(int[] array) {
+      int n = array.length;
+      int comparisons = 0;
+      for (int i = 0; i < n - 1; i++) {
+          for (int j = 0; j < n - i - 1; j++) {
+              if (array[j] > array[j + 1]) {
+                  // swap temp and array[i]
+                  int temp = array[j];
+                  array[j] = array[j + 1];
+                  array[j + 1] = temp;
+              }
+              comparisons++;
+          }
+      }
+      return new int[]{comparisons};
+  }
+  
+  static int[] generatePartiallySortedArray(int size) {
+      int[] array = new int[size];
+      int half = size / 2;
+      for (int i = 0; i < half; i++) {
+          array[i] = i;
+      }
+      for (int i = half; i < size; i++) {
+          array[i] = (int) (Math.random() * size);
+      }
+      return array;
+  }
+}
+`,
+`public class Main {
+  public static void main(String[] args) {
+      int[] array = generatePartiallySortedArray(1000);
+      
+      long startTime = System.nanoTime();
+      int[] result = bubbleSortImproved(array);
+      long endTime = System.nanoTime();
+      
+      System.out.println("Tiempo de ejecución (en milisegundos): " + ((endTime - startTime) / 1000000));
+      System.out.println("Memoria consumida (en bytes): " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()));
+      System.out.println("Comparaciones: " + result[0]);
+  }
+  
+  static int[] bubbleSortImproved(int[] array) {
+      int n = array.length;
+      int comparisons = 0;
+      boolean swapped;
+      for (int i = 0; i < n - 1; i++) {
+          swapped = false;
+          for (int j = 0; j < n - i - 1; j++) {
+              if (array[j] > array[j + 1]) {
+                  // swap temp and array[i]
+                  int temp = array[j];
+                  array[j] = array[j + 1];
+                  array[j + 1] = temp;
+                  swapped = true;
+              }
+              comparisons++;
+          }
+          if (!swapped) {
+              break;
+          }
+      }
+      return new int[]{comparisons};
+  }
+  
+  static int[] generatePartiallySortedArray(int size) {
+      int[] array = new int[size];
+      int half = size / 2;
+      for (int i = 0; i < half; i++) {
+          array[i] = i;
+      }
+      for (int i = half; i < size; i++) {
+          array[i] = (int) (Math.random() * size);
+      }
+      return array;
+  }
+}
+`,
+`public class Main {
+  public static void main(String[] args) {
+      int[] array = generatePartiallySortedArray(1000);
+      
+      long startTime = System.nanoTime();
+      int[] result = quickSort(array, 0, array.length - 1);
+      long endTime = System.nanoTime();
+      
+      System.out.println("Tiempo de ejecución (en milisegundos): " + ((endTime - startTime) / 1000000));
+      System.out.println("Memoria consumida (en bytes): " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()));
+      System.out.println("Comparaciones: " + result[0]);
+  }
+  
+  static int[] quickSort(int[] array, int low, int high) {
+      int comparisons = 0;
+      if (low < high) {
+          int[] piResult = partition(array, low, high);
+          int pi = piResult[0];
+          comparisons += piResult[1];
+          
+          int[] leftResult = quickSort(array, low, pi - 1);
+          int[] rightResult = quickSort(array, pi + 1, high);
+          comparisons += leftResult[0] + rightResult[0];
+      }
+      return new int[]{comparisons};
+  }
+  
+  static int[] partition(int[] array, int low, int high) {
+      int pivot = array[high];
+      int i = low - 1;
+      int comparisons = 0;
+      for (int j = low; j < high; j++) {
+          if (array[j] < pivot) {
+              i++;
+              int temp = array[i];
+              array[i] = array[j];
+              array[j] = temp;
+          }
+          comparisons++;
+      }
+      int temp = array[i + 1];
+      array[i + 1] = array[high];
+      array[high] = temp;
+      return new int[]{i + 1, comparisons};
+  }
+  
+  static int[] generatePartiallySortedArray(int size) {
+      int[] array = new int[size];
+      int half = size / 2;
+      for (int i = 0; i < half; i++) {
+          array[i] = i;
+      }
+      for (int i = half; i < size; i++) {
+          array[i] = (int) (Math.random() * size);
+      }
+      return array;
+  }
+}
+
+`,
+`import java.util.*;
+
+class Main {
+    public static String[] generarArregloNombres(int cantidad) {
+        String[] nombres = new String[cantidad];
+        String[] iniciales = {"Ana", "Luis", "María", "David", "Sofía", "Carlos", "Elena", "Alejandro", "Isabella", "Juan", "Valentina", "Andrea", "Pedro", "Camila", "Fernando", "Laura", "Diego", "Carolina", "Gabriel", "Javier", "Ana", "Miguel", "Paula", "Max", "Bianca", "Daniel", "Isaac", "Olivia", "Ava", "Liam", "Eva", "Mia", "Sophia", "Amelia", "Isabella", "Luna", "Alexander", "Benjamin", "William", "Emma", "Oliver", "Noah", "Ethan", "Henry", "James", "Arjun", "Mateo", "Lucas"};
+        Random rand = new Random();
+        for (int i = 0; i < cantidad; i++) {
+            int index = rand.nextInt(iniciales.length);
+            nombres[i] = iniciales[index];
+        }
+        return nombres;
+    }
+
+    public static void main(String[] args) {
+        int cantidadNombres = 10000; // Puedes ajustar la cantidad de nombres aquí
+        String[] nombres = generarArregloNombres(cantidadNombres);
+
+        // Contar repeticiones de nombres
+        Map<String, Integer> contadorNombres = new HashMap<>();
+        for (String nombre : nombres) {
+            contadorNombres.put(nombre, contadorNombres.getOrDefault(nombre, 0) + 1);
+        }
+
+        // Ordenar por nombre
+        List<Map.Entry<String, Integer>> listaEntradas = new ArrayList<>(contadorNombres.entrySet());
+        Collections.sort(listaEntradas, (a, b) -> a.getKey().compareTo(b.getKey()));
+
+        // Imprimir lista ordenada por nombre
+        System.out.println("Lista ordenada por nombre:");
+        for (Map.Entry<String, Integer> entrada : listaEntradas) {
+            System.out.println(entrada.getKey() + ": " + entrada.getValue() + " veces");
+        }
+
+        // Ordenar por cantidad de repeticiones
+        Collections.sort(listaEntradas, (a, b) -> b.getValue().compareTo(a.getValue()));
+
+        // Imprimir lista ordenada por cantidad de repeticiones
+        System.out.println("\nLista ordenada por cantidad de repeticiones:");
+        for (Map.Entry<String, Integer> entrada : listaEntradas) {
+            System.out.println(entrada.getKey() + ": " + entrada.getValue() + " veces");
+        }
+    }
+}
 `
 
 ]
@@ -3409,7 +4476,7 @@ function printExersices(enunciado, codigo, corte, details) {
     if (event.target.tagName === "LI") {
       let clicked = event.target.value;
       document.getElementById("code").style.display = "block"
-      document.getElementById("principal_title").textContent = "Repositorio programacion I"
+      document.getElementById("principal_title").textContent = "Repositorio Estructura de datos"
 
 
       document.getElementById("title").innerHTML = `Actividad ${clicked + 1}`; //insertamos el numero del ejercicio

@@ -136,7 +136,7 @@ li:hover {
     max-height: 80%;
     display: none;
     height: 55vh;
-    width: 90%; /*AQUI ESTA LO QUE CAMBIE--------------------------------------- estaba en 140vh*/
+    width: 60vw; /*AQUI ESTA LO QUE CAMBIE--------------------------------------- estaba en 140vh*/
 }
 
 code {
