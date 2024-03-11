@@ -1,0 +1,38 @@
+body{
+    padding: 3vh;
+}
+
+.titulo{
+    color: blue;
+    text-align: center;
+}
+
+.marco_teorico{
+    text-align: center;
+    font-size: 2vh;
+    margin-bottom: 3vh;
+    margin-top: -4vh;
+}
+
+img{
+    width: 30%;
+}
+
+.calculadora{
+    text-align: center;
+}
+
+h3{
+    margin: 4vh;
+}
+
+.div_tabla {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+button{
+    margin: 3vh;
+}
+

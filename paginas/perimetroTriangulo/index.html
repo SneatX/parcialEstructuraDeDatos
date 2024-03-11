@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Calculadora area y perimetro</title>
+</head>
+
+<body>
+    <h1 class="titulo">Calculadora del area y perimetro del triangulo</h1>
+
+    <div class="marco_teorico">
+
+        <img src="img/trianguloRectangulo.png" alt="algo salio mal xd" class="imagen">
+
+    </div>
+
+    <div class="div_calculadora">
+        <div class="div_catetos">
+            <label for="cateto1">Cateto 1</label>
+            <input type="number" id="cateto1">
+
+            <label for="cateto1">Cateto 2</label>
+            <input type="number" id="cateto2">
+
+            <button type="button" class="btn btn-outline-warning" id="botonCatetos">Calcular</button>
+        </div>
+        <br>
+        <div class="div_hipotenusa">
+            <label for="catetoHipotenusa">Cateto 1</label>
+            <input type="number" id="catetoHipotenusa">
+
+            <label for="hipotenusa">Hipotenusa</label>
+            <input type="number" id="hipotenusa">
+
+            <button type="button" class="btn btn-outline-warning" id="botonHipotenusa">Calcular</button>
+        </div>
+    </div>
+
+    <div id="div_respuestas">
+
+    </div>
+
+    <div class="botonVolver">
+        <a href="../../index.html"><button type="button" class="btn btn-outline-warning botonVolver">Volver</button></a>
+    </div>
+
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

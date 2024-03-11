@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Calculadora IMC</title>
+</head>
+
+<body>
+    <h1 class="titulo">Calculadora imc</h1>
+
+    <div class="marco_teorico">
+        <p>El IMC, o Índice de Masa Corporal, es una medida utilizada para evaluar la relación entre el peso y la altura
+            de una persona y determinar si tiene un peso saludable. Se calcula dividiendo el peso en kilogramos de una
+            persona por el cuadrado de su altura en metros. El resultado del cálculo del IMC se interpreta en una escala
+            que indica si una persona tiene un peso insuficiente, peso normal, sobrepeso u obesidad. Esta escala varía
+            según las pautas establecidas por la Organización Mundial de la Salud (OMS) y suele ser la siguiente:</p>
+
+        <img src="img/IMC.png" alt="algo salio mal xd" class="imagen">
+
+    </div>
+
+    <div class="calculadora">
+
+        <h3>Para calcular su indice de masa corporal (imc) ingrese sus datos a continuacion: </h3>
+
+        <div class="div_peso">
+            <label for="peso">Peso en kilogramos(kg)</label>
+            <input type="number" id="peso">
+        </div>
+
+        <div class="div_estatura">
+            <label for="estatura">Estatura en metros(m)</label>
+            <input type="number" id="estatura">
+        </div>
+
+
+        <div class="div_boton">
+            <button type="button" class="btn btn-outline-warning" id="botonCalcular">Calcular</button>
+            <br>
+            <br>
+            <a href="../../index.html"><button type="button" class="btn btn-outline-warning">Volver</button></a>
+        </div>
+
+        <div id="resultado">
+
+        </div>
+    </div>
+
+
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

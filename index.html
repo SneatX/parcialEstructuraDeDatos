@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css propio-->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <title>Estructura de datos</title>
+</head>
+
+<body>
+    <header>
+        <button id="sidebarButton">
+            <span>&#9776;</span> Menu
+        </button>
+
+
+        <div class="div_principal_title">
+            <p id="principal_title"></p>
+        </div>
+
+        <div class="div_home_button">
+            <img src="/img/homeIcon.png" id="homeButton">
+        </div>
+
+    </header>
+
+    <div class="main">
+        <div id="sidebar">
+
+            <div id="ejercicios">
+                <h1 style="text-align: center; font-size: 5vh;">Parciales</h1>
+
+                <h2 id="titleP1" class="cortesTitle">Parcial 1</h2>
+                <ul id="corte1"></ul>
+<!-- 
+                <h2 id="titleP2" class="cortesTitle">Corte 2</h2>
+                <ul id="corte2"></ul>
+
+                <h2 id="titleP3" class="cortesTitle">Corte 3</h2>
+                <ul id="corte3"></ul> -->
+            </div>
+
+<!-- 
+            <div id="parciales">
+                <h1 style="text-align: center; font-size: 5vh;">Parciales</h1>
+
+                <h2 id="titleParcial1" class="cortesTitle">Parcial 1</h2>
+                <ul id="parcial1"></ul>
+
+                <h2 id="titleParcial2" class="cortesTitle">Parcial 2</h2>
+                <ul id="parcial2"></ul>
+
+                <h2 id="paginasParcial" class="cortesTitle">Paginas Parcial 2</h2>
+            </div> -->
+
+
+        </div>
+
+        <div id="content">
+
+            <h1 id="title">Repositorio Programacion 1</h1>
+            <p id="enunciado">Santiago Alexander Ospina Pabón</p>
+            <div id="details">
+                <p>En el este sitio web podra encontrar todos los ejercicios desarrollados en el parcial 1 de estructura de datos 2024A en la universidad de santander (UDES) Todos los ejercicios fueron desarrollados en java y para su comodidad cada uno consta de un boton que le permite copiar en el portapapeles el codigo del ejercicio para su facil revision y reutilizacion</p>
+                <br>
+                <p>De la parte izquierda de la pagina encontrara un boton que dice "menu", alli podra encontrar
+                   de momento el parcial 1 de estructura de datos 2024. Del
+                    lado derecho tambien tendra el boton "home", que al presionar recargara la pagina para volverlo
+                    a traer a la pagina principal que es esta</p>
+                <br>
+                <p>Este repositorio ha sido desarrollado utilizando tecnologías modernas, como HTML, CSS,
+                    JavaScript y Bootstrap, para ofrecer una interfaz intuitiva y fácil de usar. </p>
+            </div>
+
+            <pre id="code"><code lang="java"></code></pre>
+            <div id="copyButton_div"></div>
+        </div>
+    </div>
+
+
+
+
+    <!--Sidebar-->
+    <script src="/js/sidebar.js"></script>
+    <!--HomeButton and others-->
+    <script src="/js/home.js"></script>
+    <!--Ejercicios-->
+    <script src="/js/main.js"></script>
+    <!--Paginas extra-->
+    <script src="/js/paginasParcial.js"></script>
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

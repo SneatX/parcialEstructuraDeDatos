@@ -1,0 +1,33 @@
+body{
+    padding: 3vh;
+}
+
+.titulo{
+    color: blue;
+    text-align: center;
+    width: 100%;
+}
+
+#marco_teorico{
+    text-align: center;
+}
+
+#calculadora{
+    text-align: center;
+    justify-content: center;
+}
+
+h3{
+    margin-bottom: 4vh;
+}
+
+.div_edad, .div_boton{
+    margin-bottom: 3vh;
+    font-size: 2vh;
+}
+
+#resultado{
+    margin: 2vh;
+    color: rgb(11, 93, 245);
+}
+

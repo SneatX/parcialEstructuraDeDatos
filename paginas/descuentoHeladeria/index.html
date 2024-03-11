@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Calculadora Descuentos</title>
+</head>
+
+<body>
+
+    <h1 class="titulo">Calculadora Descuentos</h1>
+
+    <div class="marco_teorico">
+        <img src="img/heladeria.png" alt="algo salio mal xd" class="imagen">
+    </div>
+
+    <div class="calculadora">
+
+        <h3>A continuacion calcularemos el total a pagar dependiendo de su membresia </h3>
+
+        <div class="div_membresia">
+            <label for="membresia">Seleccione su tipo de membresia</label>
+            <select id="membresia">
+                <option value="1">Tipo A (10% de descuento)</option>
+                <option value="2">Tipo B (15% de descuento)</option>
+                <option value="3">Tipo C (20% de descuento)</option>
+            </select>
+        </div>
+
+        <div class="div_precio">
+            <label for="precio">Precio compra: </label>
+            <input type="number" id="precio">
+        </div>
+
+
+        <div class="div_boton">
+            <button type="button" class="btn btn-outline-warning" id="botonCalcular">Calcular</button>
+            <a href="../../index.html"> <button type="button" class="btn btn-outline-warning">Volver</button></a>
+        </div>
+
+        <div id="resultado">
+
+        </div>
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

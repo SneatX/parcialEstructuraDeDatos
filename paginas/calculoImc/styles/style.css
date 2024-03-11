@@ -1,0 +1,35 @@
+body{
+    padding: 3vh;
+}
+
+.titulo{
+    color: blue;
+    text-align: center;
+    width: 100%;
+}
+
+.marco_teorico{
+    text-align: center;
+    font-size: 2vh;
+}
+
+.imagen {
+    text-align: center;
+    margin: 4vh;
+}
+
+.calculadora{
+    text-align: center;
+}
+
+.div_peso, .div_estatura{
+    margin: 3vh;
+    font-size: 2vh;
+}
+
+.salida{
+    font-size: large;
+    margin: 2vh;
+    color: rgb(11, 93, 245);
+}
+

@@ -1,0 +1,46 @@
+body {
+    padding: 3vh;
+}
+
+.titulo {
+    color: blue;
+    text-align: center;
+    width: 100%;
+}
+
+.marco_teorico {
+    text-align: center;
+    font-size: 2vh;
+}
+
+img {
+    text-align: center;
+    margin: 4vh;
+}
+
+.div_calculadora {
+    display: flex;
+    justify-content: center;
+}
+
+.div_catetos {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5vh;
+}
+
+.div_hipotenusa {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vh;
+
+}
+
+#div_respuestas {
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.botonVolver {
+    text-align: center;
+}

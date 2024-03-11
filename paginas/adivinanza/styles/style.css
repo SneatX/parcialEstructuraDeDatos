@@ -1,0 +1,32 @@
+body{
+    padding: 3vh;
+}
+
+.titulo{
+    color: blue;
+    text-align: center;
+}
+
+.marco_teorico{
+    text-align: center;
+    font-size: 2vh;
+}
+
+#calculadora{
+    text-align: center;
+}
+
+h3{
+    margin: 4vh;
+}
+
+.final{
+    text-align: center;
+}
+
+#respuesta{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
