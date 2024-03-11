@@ -7,7 +7,8 @@ const enunciadosP1 = [
   "Ejercicio 1 del parcial con el metodo Burbuja mejorado <br>Tiempo de ejecucion: 15 milisegundos <br> Memoria consumida: 986232 bytes <br> Cantidad de iteraciones: 12468",
   "Ejercicio 1 del parcial con el metodo quick sort <br>Tiempo de ejecucion: 496613 nanosegundos <br> Memoria consumida: 678016 bytes <br> Cantidad de iteraciones: 6144<br><br>Como podemos observar al comparar los resultados del quicksort despues de su ejecucion con los metodos burbuja, a este metodo no le toma ni un segundo realizar la misma tarea, le toma menos de la mitad de las iteraciones y cosume alrededor de un 30% menos de memoria en su ejecucion, por lo que en este caso, quicksort es la mejor opcion para organizar los datos"
 ]
-const codigoP1 = [`public class Main {
+const codigoP1 = [
+`public class Main {
   public static void main(String[] args) {
       // Arrays de fechas y precios
       String[] dates = {
@@ -335,8 +336,7 @@ class BubbleSortImproved {
 
 `,
 
-`
-import java.util.Arrays;
+`import java.util.Arrays;
 
 public class Main {
     private static int iterations = 0;
@@ -523,7 +523,10 @@ public class Main {
     }
 }
 
+`,
 `
+`
+
 ]
 const corte1 = document.getElementById("corte1");
 const titleP1 = document.getElementById('titleP1');
